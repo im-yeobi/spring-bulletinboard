@@ -1,4 +1,4 @@
-package io.sejong.study.springbulletinboard.common.config;
+package io.sejong.study.springbulletinboard.core.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
