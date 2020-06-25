@@ -27,4 +27,15 @@ public class WebConfig {
     resolver.setContentType("utf-8");
     return resolver;
   }
+
+  /* 브라우저에서 한글 인코딩 깨지는 문제 해결 두 번째 방법
+  @Bean
+  CharacterEncodingFilter characterEncodingFilter() {
+      CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
+      characterEncodingFilter.setEncoding("UTF-8");
+      characterEncodingFilter.setForceEncoding(true);
+
+      return characterEncodingFilter;
+  }
+  */
 }
