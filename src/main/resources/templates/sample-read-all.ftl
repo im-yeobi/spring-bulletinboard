@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <title>전체 조회</title>
 
-    <link rel="stylesheet" href="/css/semantic.min.css">
+<#--    <link rel="stylesheet" href="/semanticui/css/semantic.min.css">-->
 <#--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">-->
 <#--    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>-->
+
+    <#include "./static/semantic-ui-css.ftl" />
 </head>
 <body>
     <table class="ui red table">
