@@ -8,6 +8,12 @@
 <br />
 `/docs/requirement.md` 경로에 저장되어 있는 파일이다.
 
+
+## 프로젝트 위키
+
+[Github 위키](https://github.com/im-yeobi/spring-bulletinboard/wiki)에 정리
+
+
 ## 개발 환경
 - JDK8
 - Spring Boot 2.3.0
